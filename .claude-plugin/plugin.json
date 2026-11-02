@@ -1,0 +1,9 @@
+{
+  "name": "team-lead",
+  "description": "Claude skills a non-developer team lead actually uses at work: merge team weekly Excel reports into one page (with automatic total check), turn meeting notes into decisions and action items, and build daily work logs from Notion. 코드 모르는 팀장이 회사에서 쓰는 Claude 스킬.",
+  "version": "1.0.2",
+  "author": { "name": "Ahn Luka", "url": "https://www.youtube.com/@AI결재함" },
+  "repository": "https://github.com/ahnluka-rgb/claude-team-lead-skills",
+  "license": "MIT",
+  "keywords": ["korean", "team-lead", "weekly-report", "excel", "meeting-notes", "notion", "work-log", "non-developer"]
+}

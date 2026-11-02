@@ -1,0 +1,8 @@
+{
+  "name": "claude-team-lead-skills",
+  "owner": { "name": "Ahn Luka" },
+  "metadata": { "description": "코드 모르는 팀장이 회사에서 쓰는 Claude 스킬 / Claude skills for non-developer team leads" },
+  "plugins": [
+    { "name": "team-lead", "source": "./" }
+  ]
+}

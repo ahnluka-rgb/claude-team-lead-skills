@@ -1,0 +1,17 @@
+{
+ "decisions": [
+  {"keywords": ["대체", "견적"], "lines": [11]},
+  {"keywords": ["정대리", "들어"], "also": ["미팅", "참석"], "lines": [17]}
+ ],
+ "actions": [
+  {"owner": "한사원", "keywords": ["거래량"], "lines": [6, 7]},
+  {"owner": "이주임", "keywords": ["견적", "공급사", "그린지류"], "lines": [12, 15]},
+  {"owner": "최사원", "keywords": ["회의실"], "lines": [18, 19]},
+  {"owner": "정대리", "keywords": ["메일", "원본", "메신저"], "lines": [20]}
+ ],
+ "open": [["인상", "받아들"], ["날짜", "견적", "이주임"]],
+ "traps": [
+  {"why": "4행 박대리 담당은 휴가로 6행에서 한사원으로 바뀜", "action_owner_for": ["거래량", "한사원"]},
+  {"why": "15행 이주임 견적 마감은 '내일 다시 정함' — 날짜를 지어내면 안 됨", "action_due_must_be_undecided": ["견적"]}
+ ]
+}
